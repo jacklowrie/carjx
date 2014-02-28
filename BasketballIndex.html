@@ -44,6 +44,15 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+<script src="js/jquery-1.6.2.min.js"></script>
+<script src="js/jquery-ui-1.8.15.custom.min.js"></script>
+<link rel="stylesheet" href="css/jqueryCalendar.css">
+<script>
+                jQuery(function() {
+                                jQuery( ".dateField" ).datepicker();
+                });
+                </script>
   </head>
 
   <body>
@@ -121,7 +130,7 @@
               <label>Select Date</label>
 
                 <div class="input-append">
-                  <input type="text" class="span2 search-query" value="2/29/2014">
+                  <input type="text" class="span2 search-query dateField" value="2/29/2014">
                   <button type="submit" class="btn">Search</button>
                 </div>
                 </fieldset>
