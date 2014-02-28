@@ -1,0 +1,88 @@
+html, body {
+	height:100%;
+	width:100%;
+	/*font-family: Sans-Serif;*/
+	font-family:sans-serif;
+}
+
+input,select {
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+}
+
+.backdrop{
+	background-color: #F9F6D5;
+	border-radius:10px;
+	height: 1000px;
+	width: auto;
+}
+
+.header{
+	background-color: white;
+	height: 75px;
+	margin-left: 10px;
+	margin-right:10px;
+	width: auto;
+	top: 50px;
+	left: 25px;
+	right: 25px;
+}
+
+.menu{
+	background-color: #480058;
+	border-radius: 10px;
+	height: 100px;
+	width: auto;
+}
+
+button{
+	background-color: #863496;
+	border-radius: 10px;
+	width: 150px;
+	height: 50px;
+	margin: 25px; 
+	color: black;
+	font-family: monaco;
+	font-size: 125%;
+}
+
+.container{
+	color:black;
+	padding-top: 10px;
+	margin-left:300px;
+	margin-top: 200px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background-color: gray;
+	width:800px;
+	height:400px;
+}
+
+#title{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+#input{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+#buttons{
+	margin-top: 20px;
+	margin-left: 100px;
+	float: left;
+}
+
+
+#btn{
+	height: 30px;
+	width: 150px;
+	font-size: 20px;
+	border-radius: 2px;
+	background-color: #D4D4D4;
+}
+
