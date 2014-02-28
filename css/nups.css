@@ -1,36 +1,77 @@
-.backdrop{ /*outline of all the content*/
-	background-color: #F9F6D5;
-	border-radius:10px;
-	height: 1000px;
-	width: auto;
-}
+/*styles for the home page*/
+	.backdrop{
+		background-color: #F9F6D5;
+		border-radius:10px;
+		height: 1000px;
+		width: auto;
+	}
+	.header{
+		background-color: white;
+		height: 75px;
+		margin-left: 10px;
+		margin-right:10px;
+		width: auto;
+		top: 50px;
+		left: 25px;
+		right: 25px;
+	}
+	.menu{
+		background-color: #480058;
+		border-radius: 10px;
+		height: 100px;
+		width: auto;	
+	}
+	button{
+		background-color: #863496;
+		border-radius: 10px;
+		width: 150px;
+		height: 50px;
+		margin: 25px; 
+		color: black;
+		font-family: monaco;
+		font-size: 125%;
+	}
 
-.header{
-	background-color: white;
-	height: 75px;
-	margin-left: 10px;
-	margin-right:10px;
-	width: auto;
-	top: 50px;
-	left: 25px;
-	right: 25px;
-}
-.menu{
-	background-color: #480058;
-	border-radius: 10px;
-	height: 100px;
-	width: auto;
+
+/* chatroom styles */
+	.chat{
+		background: rgb(208, 239, 177);
+		border-radius: 10px;
+		
+		margin-top: auto;
+		margin-left: auto;
+		margin-right: auto;
+		
+		width: 350px;
+		height: 350px;
+		
+	}
 	
-}
-
-
-button{
-	background-color: #863496;
-	border-radius: 10px;
-	width: 150px;
-	height: 50px;
-	margin: 25px; 
-	color: black;
-	font-family: monaco;
-	font-size: 125%;
-}
+	#send{
+			border-radius: 8px;
+				box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+			position: relative;
+			width: 85px;
+			height: 50px;
+			margin: 4px;
+			font-family: lucida sans, sans-serif;
+			font-size: 1.5em;
+			
+			margin-top: auto;
+			margin-left: auto;
+			margin-right: auto;
+	}
+	#leave{
+			border-radius: 8px;
+				box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+			position: relative;
+			width: 85px;
+			height: 50px;
+			margin: 4px;
+			font-family: lucida sans, sans-serif;
+			font-size: 1.5em;
+			
+			margin-top: auto;
+			margin-left: auto;
+			margin-right: auto;
+	}
