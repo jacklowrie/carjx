@@ -1,14 +1,15 @@
 .backdrop{ /*outline of all the content*/
-	background-color: #373737;
+	background-color: #F9F6D5;
 	border-radius:10px;
 	height: 1000px;
 	width: auto;
 }
 
 .header{
-	background-color: #F1F1F1;
-	border-radius: 10px;
+	background-color: white;
 	height: 75px;
+	margin-left: 10px;
+	margin-right:10px;
 	width: auto;
 	top: 50px;
 	left: 25px;
@@ -22,11 +23,13 @@
 	
 }
 
+
 button{
-	background-color: #863496; 
+	background-color: #863496;
+	border-radius: 10px;
 	width: 150px;
 	height: 50px;
-	border-radius:10px;
+	margin: 25px; 
 	color: black;
 	font-family: monaco;
 	font-size: 125%;
