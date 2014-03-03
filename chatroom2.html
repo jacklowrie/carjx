@@ -71,10 +71,14 @@
 	<p>
 	<br>
 		Your New Game<br>
-		0/22 People in the game
+		1/22 People in the game
 	</p>
 	<br>
 		<div name="messages" class="messages">
+		</div>
+		<div name="peopleingame" class="peopleingame">
+			<u>People in game:</u><br>
+			You
 		</div>
 		
 		<div class='chat'>
@@ -84,6 +88,7 @@
 		<div id="chatbox"></div>
      
 			<form name="message" action="">
+			<br><br><br><br><br><br><br><br><br><br>
 			<br>
 				Message:<br>
 				<input name="usermsg" type="text" id="usermsg" size="63" value="Enter your message here..."/>
@@ -188,10 +193,17 @@
 			border:5px solid gray;
 			border-radius: 10px;
 			position: relative;
-			width: 700px;
+			width: 400px;
 			height: 300px;
-			left: 0px;
 			margin-top: 10px;
+			float: left;
+	}
+	.peopleingame{
+			position: relative;
+			width: 200px;
+			height: 300px;
+			margin-top: 10px;
+			float: right;
 	}
 
 
