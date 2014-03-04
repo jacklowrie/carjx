@@ -1,0 +1,90 @@
+html, body {
+	height:100%;
+	width:80%;
+	/*font-family: Sans-Serif;*/
+	font-family:sans-serif;
+}
+
+input,select {
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+}
+
+.backdrop{
+	background-color: #F9F6D5;
+	border-radius:10px;
+	height: 1000px;
+	width: auto;
+}
+
+.sidebar{
+	font-family: monaco;
+	margin-top: 50px;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 20px;
+	background-color:#5F2580;
+	height:350px;
+	width:150px;
+	float:left;
+	border-radius: 5px;
+}
+
+.menu{
+	background-color: #480058;
+	border-radius: 10px;
+	height: 100px;
+	width: auto;
+}
+
+button{
+	background-color: #863496;
+	border-radius: 10px;
+	width: 150px;
+	height: 50px;
+	margin: 25px; 
+	color: black;
+	font-family: monaco;
+	font-size: 125%;
+}
+
+.container{
+	color:black;
+	padding-top: 10px;
+	margin-left:200px;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background-color: gray;
+	width:600px;
+	height:350px;
+}
+
+#title{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+#input{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+#buttons{
+	margin-top: 20px;
+	margin-left: 100px;
+	float: left;
+}
+
+
+#btn{
+	height: 30px;
+	width: 150px;
+	font-size: 20px;
+	border-radius: 2px;
+	
+}
+
