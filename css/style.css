@@ -238,7 +238,7 @@ h2 {
 h3 {
   font-size: 30px;
   line-height: 34px;
-  margin: 10px -5px 15px;
+  margin: -125px -5px 15px;
   font-weight: normal;
 }
 .content-extra h3 {
@@ -1378,3 +1378,13 @@ margin-left: 107px;
 margin-left: 223px;
 margin-top: 10px;
 }
+
+.sidebar
+{
+height: 120px;
+width: 150px;
+margin-left: 0px;
+padding-top:10px;
+color:#000000;
+}
+
