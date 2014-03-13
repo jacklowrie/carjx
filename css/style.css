@@ -1388,3 +1388,14 @@ padding-top:10px;
 color:#000000;
 }
 
+
+/*Login Page Styles */
+
+.login-image{
+margin-left: 25px;
+}
+
+.login-rows{
+margin-left: 20px;
+margin-top: 5px;
+}
