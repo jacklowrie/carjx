@@ -1389,7 +1389,7 @@ color:#000000;
 }
 
 
-/*Login Page Styles */
+/* Login Page Styles */
 
 .login-image{
 margin-left: 25px;
@@ -1405,3 +1405,23 @@ margin-left: 5px;
 margin-top: 5px;
 }
 
+/* Messageboard Styles */
+.messageboard{
+	background: white;
+	width: 500px;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	color: black;
+}
+
+.new-message{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#postmessage {
+	margin-left: 10px;
+}
