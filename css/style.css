@@ -1395,7 +1395,13 @@ color:#000000;
 margin-left: 25px;
 }
 
-.login-rows{
+.login-username{
 margin-left: 20px;
 margin-top: 5px;
 }
+
+.login-password{
+margin-left: 30px;
+margin-top: 5px;
+}
+
