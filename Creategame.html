@@ -33,7 +33,6 @@
 
 		.background {
 			height: 660px;
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,48,255,1)), color-stop(25%,rgba(85,26,139,1)), color-stop(50%,rgba(85,26,139,1)), color-stop(100%,rgba(85,26,139,1)));
 		}
 
 		.logo{
@@ -47,11 +46,12 @@
 		.head{
 			background: #480058;
 		}
-
+		
 		#box{
 			float: right;
 			margin-right: 125px;
 		}
+
 
 		form {
 			line-height:240%;
@@ -70,7 +70,7 @@
 		#back{
 			float:left;
 			margin-top: 2px;
-			margin-right: 125px;
+			margin-right: 10px;
 		}
 
 	</style>
@@ -123,7 +123,8 @@
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="span3">
-					  <div class="sidebar">
+					 <div class="sidebar">
+
 						<div class="well sidebar-nav">
 							<ul class="nav nav-list">
 								<li class="nav-header">My games</li>
@@ -141,6 +142,7 @@
 						<div class="hero-unit">
 							<form class="form-search">
 								<legend>Create New Game</legend>
+								<div id="everything">
 								Select Date: &nbsp;<input type="text" class="span3 search-query dateField" value="02/28/2014" id="box"><br>
 								Select Start Time: &nbsp;<input type="time" class="span3 search-query basicExample" id="box"><br>
 								Select Max Number of People:&nbsp;<input type="text" class="span3 search-query" id="box"><br>
@@ -158,17 +160,21 @@
 								</div>
 							</form>
 						</div>
+						</div>
 					</div>	
 					<hr>
-					<div class="foot">
-						<footer>
-							<p>&copy; Carjx 2014</p>
-						</footer>
-					</div>
+					
+				<div class="foot">
+				<footer>
+				<p>&copy; Carjx 2014</p>
+				</footer>
+				</div>
+
 				</div>
 			</div> <!--end container fluid-->
 		</div> <!--end container-->
 	</div> <!--end background-->
+	
 </body>
 
 </html>
