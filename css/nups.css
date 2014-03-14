@@ -17,6 +17,8 @@ body {
 
 .sidebar{
     padding: 9px 0;
+     margin-left: -20px;
+    margin-top: -9px;
 }
 
 @media (max-width: 980px) {
