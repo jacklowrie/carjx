@@ -9,9 +9,12 @@ $(document).ready( function(){
 
 
 // Post Message Button
-	$("#postmessage").click(function(){
+	var button = $("#postmessage");
+	$(button).click(function(){
 		var inputVal = $("#mymessage").val();
-		("messageboard").append( $("<div>inputVal</div>").addClass("new-message") );
+		var message = $("<div></div>").addClass(newmessage);
+		(message).append( $(inputVal) );
+		
 	});
 
 });
