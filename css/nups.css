@@ -6,6 +6,15 @@ body {
 }
 */
 
+#content{
+	width:inherit;
+}
+
+#alldata{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 .sidebar{
     padding: 9px 0;
 }
@@ -25,9 +34,13 @@ body {
 
 .background {
 	height: 660px;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,48,255,1)), color-stop(25%,rgba(85,26,139,1)), color-stop(50%,rgba(85,26,139,1)), color-stop(100%,rgba(85,26,139,1)));
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,48,255,1)), color-stop(25%,rgba(85,26,139,1)), color-stop(50%,rgba(85,26,139,1)), color-stop(100%,rgba(85,26,139,1)));*/
+	background: white;
 }
 
+.odd{
+	background: blue;
+}
 .logo{
 	width:1170px;
 	margin-left: auto;
@@ -36,14 +49,34 @@ body {
 	color: #FFFFFF;
 }
 
+.game{
+	;
+}
+.tdtext{
+	display:inline;
+	padding-left: 25px;
+}
+
 .head{
 	background: #480058;
 }
 
 .foot{
-	color: #FFFFFF;
+	background: #480058;
+	color: white;
+	position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
 }
-
+.footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
 
 /* chatroom styles */
 	.chat{
