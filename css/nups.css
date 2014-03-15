@@ -1,11 +1,6 @@
 /*styles for the home page*/
-/*     
-body {
-	padding-top: 60px;
-    padding-bottom: 40px;
-}
-*/
 
+/*styles for all content*/
 #content{
 	width:inherit;
 }
@@ -14,6 +9,7 @@ body {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
 
 .nav_logo_home{
 margin-left:10px;
@@ -63,6 +59,7 @@ width:  863px;
 	background: white;
 }
 
+/*userpage styles*/
 .odd{
 	background: #E3E4FA;
 }
