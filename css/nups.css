@@ -15,13 +15,17 @@ body {
 	padding-right: 0px;
 }
 
-.nav_logo{
+.nav_logo_home{
 margin-left:10px;
 
 }
 
-.nav_logo_b{
+.nav_logo_basketball{
 margin-left:23px;
+}
+
+.nav_logo_soccer{
+margin-left:15px;
 }
 
 .nav_sports{
