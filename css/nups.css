@@ -15,6 +15,24 @@ body {
 	padding-right: 0px;
 }
 
+.nav_logo_home{
+margin-left:10px;
+
+}
+
+.nav_logo_basketball{
+margin-left:23px;
+}
+
+.nav_logo_soccer{
+margin-left:15px;
+}
+
+.nav_sports{
+margin-left:15px;
+}
+
+
 .sidebar{
     padding: 9px 0;
      margin-left: -20px;
@@ -46,7 +64,7 @@ width:  863px;
 }
 
 .odd{
-	background: #9966FF;
+	background: #E3E4FA;
 }
 .logo{
 	width:1170px;
