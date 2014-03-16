@@ -207,64 +207,66 @@
 	}
 
 /* chatroom.html styles */
-	.chat{
-		background: rgb(208, 239, 177);
-		border-radius: 10px;
-		
-		margin-top: auto;
-		margin-left: auto;
-		margin-right: auto;
-		
-		width: 350px;
-		height: 350px;
-		
+	#chatroom-hero{
+		width:107%;
 	}
 	
-	#send{
-		border-radius: 8px;
-		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
-		position: relative;
-		width: 85px;
-		height: 50px;
-		margin: 4px;
-		font-family: lucida sans, sans-serif;
-		font-size: 1.5em;
-		
-		margin-top: auto;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	#leave{
-		border-radius: 8px;
-		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
-		position: relative;
-		width: 85px;
-		height: 50px;
-		margin: 4px;
-		font-family: lucida sans, sans-serif;
-		font-size: 1.5em;
-		
-		margin-top: auto;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.messages{
-		background: #B0E0E6;
-		border:5px solid gray;
-		border-radius: 10px;
-		position: relative;
-		width: 400px;
-		height: 300px;
-		margin-top: 10px;
-		float: left;
-	}
-
-	.peopleingame{
-		position: relative;
+	.participants{
 		width: 200px;
 		height: 300px;
 		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 5px;
+		background: white;
 		float: right;
 	}
+	
+	.message-window{
+		height: 300px;
+		width: 400px;				
+		background: #B0E0E6;
+		border:5px solid gray;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	
+	.make-message{
+		width: 410px;
+		background: rgb(208, 239, 177);
+		border-radius: 5px;	
+	}
+	
+	#user-input{
+		margin-top:10px;
+		margin-left: 10px;
+	}
+	
+	#submitmsg{
+		margin-top: 0px;
+	}
+	
+	#send{
+		border-radius: 5px;
+		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+		position: relative;
+		width: 85px;
+		height: 50px;
+		margin: 4px;
+		font-family: lucida sans, sans-serif;
+		font-size: 1.5em;
+		
+		margin-top: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#leave-game{
+		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+		width: 200px;
+		
+		margin-top: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+
