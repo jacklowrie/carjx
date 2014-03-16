@@ -271,6 +271,10 @@
 		width: 70px;
 	}
 	
+	.enter-and-submit{
+		margin-top: 0px;
+	}
+	
 	#send{
 		border-radius: 5px;
 		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
