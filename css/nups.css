@@ -36,6 +36,11 @@
 		margin-left: -20px;
 		margin-top: -9px;
 	}
+	
+	.sidebar-content{
+	margin-left: 30px;
+	margin-top: -20px;
+	}
 
 	.create_game_button{
 	width: 100px;
