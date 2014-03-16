@@ -245,25 +245,26 @@
 	.message-window{
 		height: 300px;
 		width: 400px;				
-		background: #B0E0E6;
+		background: #E3E4FA;
 		border:5px solid gray;
 		border-radius: 5px;
 		padding: 5px;
 	}
 	
 	.make-message{
-		width: 410px;
+		width: 420px;
 		background: rgb(208, 239, 177);
 		border-radius: 5px;	
 	}
 	
 	#user-input{
-		margin-top:10px;
+		margin-top:180px;
 		margin-left: 10px;
+		width: 290px;
 	}
 	
 	#submitmsg{
-		margin-top: 0px;
+		margin-top: 170px;
 	}
 	
 	#send{
@@ -285,8 +286,8 @@
 		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
 		width: 200px;
 		
-		margin-top: auto;
-		margin-left: auto;
+		margin-top: 20px;
+		margin-left: 0px;
 		margin-right: auto;
 	}
 	
