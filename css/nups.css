@@ -9,6 +9,10 @@
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+	
+	button {
+		background: blue;
+	}
 
 	/* Navbar */
 		.nav_logo_home{
