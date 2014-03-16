@@ -258,7 +258,7 @@
 	}
 	
 	#user-input{
-		margin-top:-210px;
+		margin-top:-225px;
 		margin-left: 10px;
 		width: 290px;
 	}
@@ -277,7 +277,7 @@
 		font-family: lucida sans, sans-serif;
 		font-size: 1.5em;
 		
-		margin-top: auto;
+		margin-top: 0px;
 		margin-left: auto;
 		margin-right: auto;
 	}
