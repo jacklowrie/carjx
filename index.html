@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 	<head>
      	<meta charset="utf-8">
 	    <title>NuPS Login</title>
@@ -13,32 +15,6 @@
     	<link href="css/bootstrap-responsive.css" rel="stylesheet">
     	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     	<link href="css/nups.css" rel="stylesheet">
-    	<style type="text/css">
-			.background {
-				height: 660px;
-				background-image: url(css/images/login.jpg);
-				background-position:center;
-			}
-
-			.infoblank{
-				border-radius:initial;
-				height: 50px;
-			}
-
-			.info{
-				color: #FFFFFF;
-				opacity:1;
-			}
-
-			#sign_in_button{
-				opacity:1;
-			}
-
-			.title{
-				color: #FFFFFF;
-			}
-
-    </style>
 
     <!-- Fav and touch icons -->
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
@@ -58,50 +34,47 @@
 	</head>
 
 	<body>
-		<div class="background">
+		<div class="background" id="loginbackground">
 			<div class="head">
-			<div class="logo">
-				<h3>Northwestern PickupSports</h3>
-			</div>
-		</div>
-		
-		<div class="container">
-			<div class="masthead">
-				<div class="navbar">
-					
-				</div><!-- /.navbar -->
-			</div>
-    	</div>
+				<div class="logo">
+					<h3>Northwestern PickupSports</h3>
+				</div> <!-- Banner content -->
+		</div><!-- Banner -->
 
-		<div class="signup-bar">
-			<div class="signup-row">
-				<div class="title">
-					<h3>Sign in and enjoy.</h3>
-					<h4>Join NU communities and find your team today.</h4>
-				</div>
-				<div class="col">
-					<div class="blank">
-						<input type="text" class="infoblank" id="exampleInputEmail2" placeholder="Email">
-					</div>
-				</div>
-				<div class="col">
-					<div class="blank">
-						<input type="text" class="infoblank" id="exampleInputEmail2" placeholder="Password">
-					</div>
-				</div>
-				<div class="col">
-					<div class="checkbox">
+			<div class="signup-bar">
+				<div class="signup-row">
+					<div class="title">
+						<h3>Sign in and enjoy.</h3>
+						<h4>Join NU communities and find your team today.</h4>
+					</div> <!-- sign-in bar text -->
+					<div class="col">
 						<div class="blank">
-							<a href="userpage.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="sign_in_button" style="opacity:1.0;">Sign In</button>
+							<input type="text" class="infoblank" id="exampleInputEmail2" placeholder="Email">
+						</div> 
+					</div> <!-- email textfield -->
+					<div class="col">
+						<div class="blank">
+							<input type="text" class="infoblank" id="exampleInputEmail2" placeholder="Password">
 						</div>
-						<label class="rememberlogin">
-							<input type="checkbox"><span class="info"> Remember me</span>
-						</label>
-					</div>
+					</div> <!-- password textfield -->
+					<div class="col">
+						<div class="checkbox">
+							<div class="blank">
+								<a href="userpage.html">
+									<button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="sign_in_button">
+										Sign In
+									</button>
+								</a>
+							</div>
+							<label class="rememberlogin">
+								<input type="checkbox"><span class="info"> Remember me</span>
+							</label>
+						</div>
+					</div> <!-- sign-in button and checkbox -->
 				</div>
-			</div> 
-		</div>
-		</div>
+			</div> <!-- Sign-in Content -->
+		</div> <!-- Main Content -->
+		
 		<div class="foot">
 			<footer>
 				<div class="footdiv"><p>&copy; Carjx 2014</p></div>
@@ -117,5 +90,5 @@
 		<script src="js/bootstrap.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
-	
+
 </html>

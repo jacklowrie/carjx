@@ -96,8 +96,31 @@
 	.rememberlogin{
 		margin-left:20px;
 	}
+	
+	#loginbackground {
+		background-image: url(images/login.jpg);
+		background-position:center;
+	}
+	
+	.infoblank{
+		border-radius:initial;
+		height: 50px;
+	}
 
-	/*userpage.html styles*/
+	.info{
+		color: #FFFFFF;
+		opacity:1;
+	}
+
+	#sign_in_button{
+		opacity:1;
+	}
+
+	.title{
+		color: #FFFFFF;
+	}
+
+/*userpage.html styles*/
 	.odd{
 		background: #E3E4FA;
 	}
@@ -136,6 +159,10 @@
 		right: 0;
 		height: 50px;
 	}
+	
+/* soccer.html and basketball.html styles */
+	
+/* Creategame.html styles */
 
 /* chatroom.html styles */
 	.chat{
