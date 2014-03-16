@@ -264,7 +264,9 @@
 	}
 	
 	#submitmsg{
-		margin-top: 0px;
+		margin-top: -40px;
+		margin-left: 320px;
+		width: 70px;
 	}
 	
 	#send{
