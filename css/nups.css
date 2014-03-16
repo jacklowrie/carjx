@@ -59,6 +59,17 @@ width:  695px;
 	background: white;
 }
 
+a {
+	color: white;
+}
+/* site footer */
+.footlink{
+	float:left;
+	margin-top: 10px;
+	margin-left:30px;
+	color: white;
+}
+
 /*index.html styles*/
 
 .signup-bar{
