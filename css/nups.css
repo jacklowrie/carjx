@@ -230,10 +230,12 @@
 	}
 	
 	.game-information-box{
-	margin-top:0px;
+	margin-top:1px;
 	background:#E3E4FA;
-	height: 320px;
-
+	height: 305px;
+		border:1px solid gray;
+		border-radius: 5px;
+		padding: 5px;
 
 	}
 	
@@ -258,7 +260,7 @@
 	}
 	
 	#user-input{
-		margin-top:-235px;
+		margin-top:180px;
 		margin-left: 10px;
 		width: 290px;
 	}
@@ -287,9 +289,8 @@
 	#leave-game{
 		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
 		width: 200px;
-		
-		margin-top: -200px;
-		margin-left: 0px;
+		margin-top: 20px;;
+		margin-left: 0px;;
 		margin-right: auto;
 	}
 	
