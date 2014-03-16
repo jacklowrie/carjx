@@ -1,146 +1,141 @@
 /*styles for the home page*/
 
 /*styles for all pages*/
-#content{
-	width:inherit;
-}
-
-#alldata{
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-
-.nav_logo_home{
-margin-left:10px;
-
-}
-
-.nav_logo_basketball{
-margin-left:23px;
-}
-
-.nav_logo_soccer{
-margin-left:15px;
-}
-
-.nav_sports{
-margin-left:15px;
-}
-
-
-.sidebar{
-    padding: 9px 0;
-     margin-left: -20px;
-    margin-top: -9px;
-}
-
-.main{
-margin-left: -3px;
-width:  695px;
-}
-
-@media (max-width: 980px) {
-    /* Enable use of floated navbar text */
-    .navbar-text.pull-right {
-		float: none;
-		padding-left: 5px;
-		padding-right: 5px;
+	#content{
+		width:inherit;
 	}
-}
 
-#date{
-	width: 50%;
-}
+	#alldata{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
-.background {
-	height: 660px;
-	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,48,255,1)), color-stop(25%,rgba(85,26,139,1)), color-stop(50%,rgba(85,26,139,1)), color-stop(100%,rgba(85,26,139,1)));*/
-	background: white;
-}
+	/* Navbar */
+		.nav_logo_home{
+			margin-left:10px;
+		}
 
-a {
-	color: white;
-}
-/* site footer */
-.footlink{
-	float:left;
-	margin-top: 10px;
-	margin-left:30px;
-	color: white;
-}
+		.nav_logo_basketball{
+			margin-left:23px;
+		}
+
+		.nav_logo_soccer{
+			margin-left:15px;
+		}
+
+		.nav_sports{
+			margin-left:15px;
+		}
+
+	.sidebar{
+		padding: 9px 0;
+		margin-left: -20px;
+		margin-top: -9px;
+	}
+
+	.main{
+		margin-left: -3px;
+		width:  695px;
+	}
+
+	@media (max-width: 980px) {
+		.navbar-text.pull-right {
+			float: none;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+
+	#date{
+		width: 50%;
+	}
+
+	.background {
+		height: 660px;
+		background: white;
+	}
+	
+	/* site footer */
+	.footdiv{
+		float:left;
+		margin-top: 10px;
+		margin-left:30px;
+		color: white;
+	}
+	
+	.footlink{
+		color: white;
+	}
 
 /*index.html styles*/
+	.signup-bar{
+		position: relative;
+		top: 380px;
+		height: 160px;
+		background-color:#480058;
+		opacity:1;   
+		-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
+		-moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
+		box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
+	}
 
-.signup-bar{
-	position: relative;
-	top: 380px;
-	height: 160px;
-	background-color:#480058;
-	opacity:1;   
-	-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
-	-moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
-	box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
-}
+	.col{
+		width:20%;
+		float: left;
+	}
 
-.col{
-	width:20%;
-	float: left;
-}
+	.signup-row{
+		position: relative;
+		top:10px;
+		width:1170px;
+		margin-left: auto;
+		margin-right: auto;
+		opacity: 1;
+	}
 
-.signup-row{
-	position: relative;
-	top:10px;
-	width:1170px;
-	margin-left: auto;
-	margin-right: auto;
-	opacity: 1;
-}
+	.rememberlogin{
+		margin-left:20px;
+	}
 
-.rememberlogin{
-	margin-left:20px;
-}
+	/*userpage.html styles*/
+	.odd{
+		background: #E3E4FA;
+	}
+	
+	.logo{
+		width:1170px;
+		margin-left: auto;
+		margin-right:auto;
+		padding-top: 0px;
+		color: #FFFFFF;
+	}
 
-/*userpage.html styles*/
-.odd{
-	background: #E3E4FA;
-}
-.logo{
-	width:1170px;
-	margin-left: auto;
-	margin-right:auto;
-	padding-top: 0px;
-	color: #FFFFFF;
-}
+	.tdtext{
+		display:inline;
+		padding-left: 25px;
+	}
 
-.game{
-	;
-}
-.tdtext{
-	display:inline;
-	padding-left: 25px;
-}
+	.head{
+		background: #480058;
+	}
 
-.head{
-	background: #480058;
-}
-
-.foot{
-	background: #480058;
-	color: white;
-	position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-}
-.footer {
-    position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-}
+	.foot{
+		background: #480058;
+		color: white;
+		position: fixed; 
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+	}
+	
+	.footer {
+		position: fixed; 
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+	}
 
 /* chatroom.html styles */
 	.chat{
@@ -157,33 +152,33 @@ a {
 	}
 	
 	#send{
-			border-radius: 8px;
-				box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
-			position: relative;
-			width: 85px;
-			height: 50px;
-			margin: 4px;
-			font-family: lucida sans, sans-serif;
-			font-size: 1.5em;
-			
-			margin-top: auto;
-			margin-left: auto;
-			margin-right: auto;
+		border-radius: 8px;
+		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+		position: relative;
+		width: 85px;
+		height: 50px;
+		margin: 4px;
+		font-family: lucida sans, sans-serif;
+		font-size: 1.5em;
+		
+		margin-top: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#leave{
-			border-radius: 8px;
-				box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
-			position: relative;
-			width: 85px;
-			height: 50px;
-			margin: 4px;
-			font-family: lucida sans, sans-serif;
-			font-size: 1.5em;
-			
-			margin-top: auto;
-			margin-left: auto;
-			margin-right: auto;
+		border-radius: 8px;
+		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+		position: relative;
+		width: 85px;
+		height: 50px;
+		margin: 4px;
+		font-family: lucida sans, sans-serif;
+		font-size: 1.5em;
+		
+		margin-top: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.messages{
