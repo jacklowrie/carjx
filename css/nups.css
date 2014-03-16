@@ -264,7 +264,7 @@
 	}
 	
 	#submitmsg{
-		margin-top: 170px;
+		margin-top: 0px;
 	}
 	
 	#send{
@@ -277,7 +277,7 @@
 		font-family: lucida sans, sans-serif;
 		font-size: 1.5em;
 		
-		margin-top: 0px;
+		margin-top: auto;
 		margin-left: auto;
 		margin-right: auto;
 	}
