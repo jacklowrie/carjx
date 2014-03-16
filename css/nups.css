@@ -233,18 +233,17 @@
 	.game-information-box{
 		margin-top: 0px;
 		margin-left: 350px;
-	background:#E3E4FA;
-	width: 250px;
-	height: 305px;
-	border:1px solid gray;
-	border-radius: 5px;
-	padding: 5px;
-
+		background:#E3E4FA;
+		width: 250px;
+		height: 305px;
+		border:1px solid gray;
+		border-radius: 5px;
+		padding: 5px;
 	}
 	
 	.answer{
-	margin-left: 100px;
-	margin-top:-30px;
+		margin-left: 100px;
+		margin-top:-30px;
 	}
 	
 	.message-window{
