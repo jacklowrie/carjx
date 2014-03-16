@@ -180,6 +180,10 @@
 		width: 135px;
 	}
 	
+	#soccer-background{
+		background-image:url(images/soccerbackground.png);
+	}
+	
 /* Creategame.html styles */
 	#box{
 		float: right;
@@ -204,6 +208,10 @@
 		float:left;
 		margin-top: 2px;
 		margin-right: 10px;
+	}
+	
+	#soccergame-background{
+		background-image:url(images/soccer_creategame.png);
 	}
 
 /* chatroom.html styles */
