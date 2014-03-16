@@ -260,20 +260,17 @@
 	}
 	
 	#user-input{
-		margin-top:180px;
+		margin-top:-10px;
 		margin-left: 10px;
 		width: 290px;
 	}
 	
 	#submitmsg{
-		margin-top: -40px;
+		margin-top: -100px;
 		margin-left: 320px;
 		width: 70px;
 	}
-	
-	.enter-and-submit{
-		margin-top: 0px;
-	}
+
 	
 	#send{
 		border-radius: 5px;
