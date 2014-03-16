@@ -1,178 +1,138 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<title>NU Pickup Sports</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<head>
+		<meta charset="utf-8">
 	
-	<link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<title>creategame</title>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+	
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	
+		<link rel="stylesheet" type="text/css" href="css/nups.css"/>
 	
 	
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="../assets/ico/favicon.png">
 	
-	<script src="js/jquery-1.6.2.min.js"></script>
-	<script src="js/jquery-ui-1.8.15.custom.min.js"></script>
+		<script src="js/jquery-1.6.2.min.js"></script>
+		<script src="js/jquery-ui-1.8.15.custom.min.js"></script>
 
-	<link rel="stylesheet" href="css/jqueryCalendar.css">
+		<link rel="stylesheet" href="css/jqueryCalendar.css">
 
-	<script>
-	$(function() {
-		$( ".dateField" ).datepicker();
-	});
-	</script>
+		<script>
+			$(function() {
+				$( ".dateField" ).datepicker();
+			});
+		</script>
+	</head>
 
-</head>
-
-<body>
-	<div class="background">
-		<div class="head">
-			<div class="logo">
-				<h3>PickupSports</h3>
-            </div>
-		</div>
-		<div class="container">
-			<div class="masthead">
-				<div class="navbar">
-					<div class="navbar-inner">
-						<div class="container">
-							<ul class="nav">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="basketball.html">Basketball</a></li>
-								<li class="active"><a href="#">Soccer</a></li>
-							</ul>
-							<form class="navbar-search pull-right">
-								<input type="text" class="search-query" placeholder="Search">
-							</form>
-						</div>
-					</div>
-				</div><!-- /.navbar -->
-			</div>
-			
-			<div class="container-fluid">
-				<div class="row-fluid">
-					<div class="span3">
-						<div class="well sidebar-nav">
-							<ul class="nav nav-list">
-								<li class="nav-header">My games</li>
-								<li class="active"><a href="#">2/17 @3pm</a></li>
-								<li><a href="#">2/18 @6pm</a></li>
-								<li><a href="#">2/20 @9am</a></li>
-								<li><a href="#">2/27 @6pm</a></li>
-							</ul>
-						</div><!--/.well -->
-					</div><!--/span-->
-					<div class="span9">
-						<div class="hero-unit">
-							<form class="form-search">
-								<legend>Create New Game</legend>
-								<div id="everything">
-								Select Date: &nbsp;<input type="text" class="span3 search-query dateField" value="02/28/2014" id="box"><br>
-								Select Start Time: &nbsp;<input type="time" class="span3 search-query basicExample" id="box"><br>
-								Select Max Number of People:&nbsp;<input type="text" class="span2 search-query" id="box"><br>
-								<div> Select Intensity Level:&nbsp;
-									<select name="intensity" class="span3 search-query" id="box">
-										<option value="none">(None Selected)</option>
-										<option value="chill">Chill</option>
-										<option value="serious">Serious</option>
-									</select><br>
-								</div>
-								Provide Location: &nbsp;<input type="text" class="span3 search-query" id="box"><br>
-								</div>
-								<div id="buttons">
-									<a href="chatroom2.html"><button class="btn btn-primary btn-success" type="button" id="create">Create Game</button></a>
-									<a href="Index.html"><button class="btn btn-primary btn-link" type="button" id="back">Back to Home</button></a>
-								</div>
-							</form>
-						</div>
-					</div>	
-					<hr>
-					<div class="foot">
-						<footer>
-							<p>&copy; Carjx 2014</p>
-						</footer>
-					</div>
+	<body>
+		<div class="background">
+			<div class="head">
+				<div class="logo">
+					<h3>Northwestern Pickup Sports</h3>
 				</div>
-			</div> <!--end container fluid-->
-		</div> <!--end container-->
-	</div> <!--end background-->
-</body>
+			</div> <!-- Banner -->
+			
+			<div class="container">
+				<div class="masthead">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="container">
+								<ul class="nav">
+									<li>
+										<a href="userpage.html">
+											<div class="nav_logo_home"><img src="css/images/home.png"> </img></div>
+											<div class="nav_sports"> Home </div>
+										</a>
+									</li> <!-- Home Link -->
+									<li>
+										<a href="basketball.html">
+											<div class="nav_logo_basketball"><img src="css/images/basketball.png"> </img></div>
+											<div class="nav_sports"> Basketball </div>
+										</a>
+									</li> <!-- Basketball Link -->
+									<li>
+										<a href="soccer.html">
+											<div class="nav_logo_soccer"><img src="css/images/soccerball.png"> </img></div>
+											<div class="nav_sports"> Soccer </div>
+										</a>
+									</li> <!-- Soccer Link -->
+								</ul> <!-- nav buttons -->
+								<form class="navbar-search pull-right">
+									<input type="text" class="search-query" placeholder="Search">
+								</form>
+							</div>
+						</div>
+					</div><!-- /.navbar -->
+				</div> <!-- navbar code --> 
+
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span3">
+							<div class="sidebar">
+								<div class="well sidebar-nav">
+									<ul class="nav nav-list">
+										<li class="nav-header">My games</li>
+										<li><a href="#">2/17 @3pm</a></li>
+										<li><a href="#">2/18 @6pm</a></li>
+										<li><a href="#">2/20 @9am</a></li>
+										<li><a href="#">2/27 @6pm</a></li>
+									</ul>
+								</div><!--/well -->
+							</div><!--/sidebar -->
+						</div><!--"My Games sidebar"-->
+					
+						<div class="span9">
+						<div class="main">
+							<div class="hero-unit">
+								<form class="form-search">
+									<legend><b>Create New Game</b></legend>
+									<div id="everything">
+										Select Date: &nbsp;<input type="text" class="span3 search-query dateField" value="02/28/2014" id="box"><br>
+										Select Start Time: &nbsp;<input type="time" class="span3 search-query basicExample" id="box"><br>
+										Select Max Number of People:&nbsp;<input type="text" class="span3 search-query" id="box"><br>
+										<div> Select Intensity Level:&nbsp;
+											<select name="intensity" class="span3 search-query" id="box">
+												<option value="none">(None Selected)</option>
+												<option value="chill">Relaxed</option>
+												<option value="serious">Intense</option>
+											</select>
+										</div> <!-- intensity options -->
+										Provide Location: &nbsp;<input type="text" class="span3 search-query" id="box"><br>
+								</div> <!-- create game form -->
+									<div id="buttons">
+									<div class="create_game_button_createpage">
+									<a href="creategame.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="create_game_button" style="opacity:1.0;">Create Game</button></td></a>
+								</div><!-- create game button -->
+									</div> <!-- create game button -->
+								</form>
+							</div> <!-- hero-unit -->
+						</div> <!-- main -->
+					</div> <!-- span9 (content div) -->
+					</div> <!-- end row-fluid -->
+				</div> <!--end container fluid-->
+			</div> <!--end container-->
+			
+			<div class="foot">
+				<footer>
+					<div class="footdiv"><p>&copy; Carjx 2014</p></div>
+					<div class="footdiv"><a href="" class="footlink">About NUPS</a></div>
+					<div class="footdiv"><a href="" class="footlink">Contact Us</a></div>
+					<div class="footdiv"><a href="" class="footlink">Privacy Notice</a></div>
+				</footer>
+			</div> <!-- site footer -->
+		</div> <!--end background-->
+	</body>
 
 </html>
-
-<style type="text/css">
-
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-
-      @media (max-width: 980px) {
-        /* Enable use of floated navbar text */
-        .navbar-text.pull-right {
-          float: none;
-          padding-left: 5px;
-          padding-right: 5px;
-        }
-      }
-
-      #date{
-        width: 50%;
-      }
-
-      .background {
-        height: 660px;
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,48,255,1)), color-stop(25%,rgba(85,26,139,1)), color-stop(50%,rgba(85,26,139,1)), color-stop(100%,rgba(85,26,139,1)));
-      }
-
-      .logo{
-        width:1170px;
-        margin-left: auto;
-        margin-right:auto;
-        padding-top: 0px;
-        color: #FFFFFF;
-      }
-
-      .head{
-        background: #480058;
-      }
-
-      .foot{
-        color: #FFFFFF;
-      }
-	  #box{
-		float: right;
-		margin-right: 125px;
-	  }
-	  
-	  form {
-		line-height:240%;
-	  }
-	  
-	  #buttons{
-		margin-top: 10px;
-	  }
-	  
-	  #create{
-		float:right;
-		width: 150px;
-		margin-right: 125px;
-	  }
-	  
-	  #back{
-		float:left;
-		margin-top: 10px;
-		margin-right: 125px;
-	  }
-	  #everything{
-		margin-left: 125px;
-	  }
-</style>
