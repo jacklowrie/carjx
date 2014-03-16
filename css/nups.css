@@ -216,26 +216,25 @@
 
 /* chatroom.html styles */
 	#chatroom-hero{
-		width:107%;
+		width:83%;
 	}
 	
 	.game-information{
-		width: 300px;
-		height: 350px;
 		margin-top: 0px;
-		margin-left: 10px;
-		margin-right: 5px;
+		margin-right: 20px;
 		float: right;
 
 	}
 	
 	.game-information-box{
-	margin-top:1px;
+		margin-top: 0px;
+		margin-left: 350px;
 	background:#E3E4FA;
+	width: 250px;
 	height: 305px;
-		border:1px solid gray;
-		border-radius: 5px;
-		padding: 5px;
+	border:1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
 
 	}
 	
@@ -246,11 +245,13 @@
 	
 	.message-window{
 		height: 300px;
-		width: 400px;				
+		width: 330px;				
 		background: #E3E4FA;
 		border:5px solid gray;
 		border-radius: 5px;
 		padding: 5px;
+		margin-left:-30px;
+		margin-top:-315px;
 	}
 	
 	.make-message{
@@ -260,17 +261,16 @@
 	}
 	
 	#user-input{
-		margin-top:-90px;
-		margin-left: 10px;
-		width: 310px;
+		margin-top:90px;
+		margin-left: 0px;
+		width: 240px;
 	}
 	
 	#submitmsg{
-		margin-top: -85px;
-		margin-left: 340px;
+		margin-top: -40px;
+		margin-left: 260px;
 		width: 70px;
 	}
-
 	
 	#send{
 		border-radius: 5px;
@@ -291,8 +291,6 @@
 		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
 		width: 200px;
 		margin-top: 20px;;
-		margin-left: 0px;;
-		margin-right: auto;
+		margin-left: -30px;;
 	}
-	
 
