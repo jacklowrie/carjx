@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 	<head>
 		<meta charset="utf-8">
 	
-		<title>chatroom</title>
-		
-		<!-- our styles and js -->
-		<link href="css/nups.css" rel="stylesheet">	
-		<script type="text/js" src="nups.js" defer></script>
+		<title>creategame</title>
 	
-		<!-- bootstrap styles -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+	
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-		
+	
+		<link rel="stylesheet" type="text/css" href="css/nups.css"/>
+	
+	
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="../assets/ico/favicon.png">
+	
+		<script src="js/jquery-1.6.2.min.js"></script>
+		<script src="js/jquery-ui-1.8.15.custom.min.js"></script>
+
+		<link rel="stylesheet" href="css/jqueryCalendar.css">
+
+		<script>
+			$(function() {
+				$( ".dateField" ).datepicker();
+			});
+		</script>
 	</head>
 
-	<body>
-		<div class="background">
+	<body background="css/images/soccer_creategame.png">
+		<div class="background" id="soccergame-background">
 			<div class="head">
 				<div class="logo">
 					<h3>Northwestern Pickup Sports</h3>
@@ -39,14 +56,14 @@
 											<div class="nav_sports"> Home </div>
 										</a>
 									</li> <!-- Home Link -->
-									<li class="active">
-										<a href="basketball1.html">
+									<li>
+										<a href="basketball3.html">
 											<div class="nav_logo_basketball"><img src="css/images/basketball.png"> </img></div>
 											<div class="nav_sports"> Basketball </div>
 										</a>
 									</li> <!-- Basketball Link -->
 									<li>
-										<a href="soccer1.html">
+										<a href="soccer3.html">
 											<div class="nav_logo_soccer"><img src="css/images/soccerball.png"> </img></div>
 											<div class="nav_sports"> Soccer </div>
 										</a>
@@ -59,7 +76,7 @@
 						</div>
 					</div><!-- /.navbar -->
 				</div> <!-- navbar code --> 
-				
+
 				<div class="container-fluid">
 					<div class="row-fluid">
 						<div class="span3">
@@ -89,61 +106,45 @@
 										</div>
 										<img src="css/images/basketball_small.png">
 										<div class="sidebar-content">
-											<li class="active"><a href="bballgame3.html">TASK2</a></li>
+											<li><a href="bballgame3.html">TASK2</a></li>
 										</div>
 									</ul>
 								</div><!--/well -->
 							</div><!--/sidebar -->
 						</div><!--"My Games sidebar"-->
-							<div class="span9">
-								<div class="main">
-									<div class="hero-unit" id="chatroom-hero">
-										<div class="chatroom-content">
-										<head><b>Message Board</b></head>
-									
-										<div class="game-information">
-
-											<b>Game Information</b><br></div>
-											<div class="game-information-box">
-
-												<u>Creator:</u> <div class= "answer">Joe </div>
-												<u>Date:</u> <div class= "answer">2/18 at 7:00pm</div>
-												<u>Location:</u> <div class= "answer">Patten</div>
-												<u>Game size:</u> <div class= "answer">6 of 22</div>
-											
-												<u>Players:</u> 
-												<div class= "answer">
-													John Henson <br>
-													Joe Durmond<br>
-													Monica Burke<br>
-													Frank Ocean<br>
-													Steven Yang<br>
-													You<br>
-												</div> <!-- answer -->
-											</div> <!-- game information-box -->
-										<div class="message-window">
-											John [12:45pm 2/28/2014]: I'll bring the ball! <br>
-											Joe  [12:47pm 2/28/2014]: I'll call my friends <br>
-											You  [12:48pm 2/28/2014]: It's cold outside
-										</div> <!-- message window -->
-										
-											<form class="messageform" action="">
-												<input type="text" id="user-input" size="63" value="Enter your message here..."/>
-												<button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="submitmsg" style="opacity:1.0;">Submit</button>													
-
-											</form>
-											<a href="#"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="leave-game" style="opacity:1.0;">Leave Game</button>
-
-										</a> <!-- leave game button -->
-										</div><!-- chatroom-content -->
-									</div> <!-- hero-unit -->
-								</div><!-- main -->
-							</div> <!-- span9 -->
-						</div><!-- row-fluid -->
-				</div> <!-- container-fluid -->
-			</div> <!-- container -->
+					
+						<div class="span9">
+						<div class="main">
+							<div class="hero-unit">
+								<form class="form-search">
+									<legend><b>Create New Game</b></legend>
+									<div id="everything">
+										Select Date: &nbsp;<input type="text" class="span3 search-query dateField" value="02/28/2014" id="box"><br>
+										Select Start Time: &nbsp;<input type="time" class="span3 search-query basicExample" id="box"><br>
+										Select Max Number of People:&nbsp;<input type="text" class="span3 search-query" id="box"><br>
+										<div> Select Intensity Level:&nbsp;
+											<select name="intensity" class="span3 search-query" id="box">
+												<option value="none">(None Selected)</option>
+												<option value="chill">Relaxed</option>
+												<option value="serious">Intense</option>
+											</select>
+										</div> <!-- intensity options -->
+										Provide Location: &nbsp;<input type="text" class="span3 search-query" id="box"><br>
+								</div> <!-- create game form -->
+									<div id="buttons">
+									<div class="create_game_button_createpage">
+									<a href="newgame1.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="create_game_button" style="opacity:1.0;">Create Game</button></td></a>
+								</div><!-- create game button -->
+									</div> <!-- create game button -->
+								</form>
+							</div> <!-- hero-unit -->
+						</div> <!-- main -->
+					</div> <!-- span9 (content div) -->
+					</div> <!-- end row-fluid -->
+				</div> <!--end container fluid-->
+			</div> <!--end container-->
 			
-				<div class="foot">
+			<div class="foot">
 				<footer>
 					<div class="footdiv"><p>&copy; Carjx 2014</p></div>
 					<div class="footdiv"><a href="" class="footlink">About NUPS</a></div>
@@ -151,9 +152,7 @@
 					<div class="footdiv"><a href="" class="footlink">Privacy Notice</a></div>
 				</footer>
 			</div> <!-- site footer -->
-			
-		</div> <!-- background -->
+		</div> <!--end background-->
 	</body>
 
-</html> 
-
+</html>
