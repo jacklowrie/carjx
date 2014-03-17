@@ -161,6 +161,10 @@
 	.head{
 		background: #480058;
 	}
+	
+	#userpage-background{
+		background-image: url(images/userpage_background.png);
+	}
 
 	.foot{
 		background: #480058;
@@ -229,7 +233,7 @@
 	}
 	
 	#basketballgame-background{
-		background-image:url(images/basketball_creategame.png);
+		background-image:url(images/basketball_creategame.jpg);
 	}
 
 /* chatroom.html styles */
