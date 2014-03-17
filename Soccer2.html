@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>soccer</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="css/nups.css"/>
+
+		<!-- Fav and touch icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+		<script src="js/jquery-1.6.2.min.js"></script>
+		<script src="js/jquery-ui-1.8.15.custom.min.js"></script>
+		<link rel="stylesheet" href="css/jqueryCalendar.css">
+		<script>
+			jQuery(function() {
+				jQuery( ".dateField" ).datepicker();
+			});
+		</script>
+	</head>
+
+<body background="css/images/soccerbackground.png">
+		<div class="background" id="soccer-background">
+			<div class="head">
+				<div class="logo">
+					<h3>Northwestern Pickup Sports</h3>
+				</div>
+			</div> <!-- Banner -->
+			
+			<div class="container">
+				<div class="masthead">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="container">
+								<ul class="nav">
+									<li>
+										<a href="userpage2.html">
+											<div class="nav_logo_home"><img src="css/images/home.png"> </img></div>
+											<div class="nav_sports"> Home </div>
+										</a>
+									</li> <!-- Home Link -->
+									<li>
+										<a href="basketball2.html">
+											<div class="nav_logo_basketball"><img src="css/images/basketball.png"> </img></div>
+											<div class="nav_sports"> Basketball </div>
+										</a>
+									</li> <!-- Basketball Link -->
+									<li class="active">
+										<a href="soccer2.html">
+											<div class="nav_logo_soccer"><img src="css/images/soccerball.png"> </img></div>
+											<div class="nav_sports"> Soccer </div>
+										</a>
+									</li> <!-- Soccer Link -->
+								</ul> <!-- nav buttons -->
+								<form class="navbar-search pull-right">
+									<input type="text" class="search-query" placeholder="Search">
+								</form>
+							</div>
+						</div>
+					</div><!-- /.navbar -->
+				</div> <!-- navbar code --> 
+				
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span3">
+							<div class="sidebar">
+								<div class="well sidebar-nav">
+									<ul class="nav nav-list">
+										<li class="nav-header">My games</li>
+										<img src="css/images/basketball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame1.html">2/17 @3pm</a></li></div>
+										<img src="css/images/soccerball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame2.html">2/18 @6pm</a></li></div>
+										<img src="css/images/soccerball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame3.html">2/20 @9am</a></li></div>
+										<img src="css/images/basketball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame4.html">2/27 @6pm</a></li></div>
+										<div class="sidebar-content">
+										<li><a href="soccergame1.html">TASK1</a></li></div>
+									</ul>
+								</div><!--/well -->
+							</div><!--/sidebar -->
+						</div><!--"My Games sidebar"-->
+						
+						<div class="span9">
+							<div class="main">
+								<div class="hero-unit">
+		<form class="form-search">
+										<fieldset>
+											<legend><img src="css/images/soccerball.png"><b>Soccer</b></legend>
+											<label>Select Date</label>
+											<div class="input-append">
+												<input type="text" class="span2 search-query dateField" value="02/28/2014" id="date">
+												<button type="submit" class="btn">Search</button>
+											</div> <!-- search bar -->
+										</fieldset>
+									</form>
+									<label>Upcoming games:</label>
+									<table class="table">
+										<tr>
+											<td>TASK1</td>
+											<td>
+         										<a href="soccergame1.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="sign_in_button" style="opacity:1.0;">Join Game</button>
+												</a>
+											</td> <!-- join button -->
+										</tr> <!-- game -->
+										<tr>
+											<td>Today at 1:30 pm, Deering Meadow</td>
+											<td>       
+											         <a href="soccergame2.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="sign_in_button" style="opacity:1.0;">Join Game</button>
+												</a>
+											</td> <!-- join button -->
+										</tr> <!-- game -->
+										<tr>
+											<td>Today at 7:00 pm, Ryan Field</td>
+											<td>
+											         <a href="soccergame3.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="sign_in_button" style="opacity:1.0;">Join Game</button>
+												</a>
+											</td> <!-- join button -->
+										</tr> <!-- game -->
+										<tr>
+											<td>MYGAME2</td>
+											<td>       
+											    <a href="mygame2.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="sign_in_button" style="opacity:1.0;">Join Game</button>
+												</a>
+											</td> <!-- join button -->
+										</tr> <!-- game -->
+										<tr>
+											<td>MYGAME3</td>
+											<td>       
+											         <a href="mygame3.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="sign_in_button" style="opacity:1.0;">Join Game</button>
+												</a>
+											</td> <!-- join button -->
+										</tr> <!-- game -->
+									</table> <!-- upcoming games list -->
+								<div class="create_game_button">
+								<a href="soccer_creategame2.html"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="create_game_button" style="opacity:1.0;">Create Game</button>		</td>
+									</div>
+									</a> <!-- create game -->
+								</div> <!-- hero-unit -->
+							</div> <!-- main -->
+						</div> <!-- span9 -->
+					</div> <!-- row-fluid -->
+
+
+				</div> <!-- container-fluid (site body) -->
+			</div> <!-- container (main content) --> 
+			
+			<div class="foot">
+				<footer>
+					<div class="footdiv"><p>&copy; Carjx 2014</p></div>
+					<div class="footdiv"><a href="" class="footlink">About NUPS</a></div>
+					<div class="footdiv"><a href="" class="footlink">Contact Us</a></div>
+					<div class="footdiv"><a href="" class="footlink">Privacy Notice</a></div>
+				</footer>
+			</div> <!-- site footer -->
+		</div> <!-- background -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+  </body>
+</html>

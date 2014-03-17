@@ -1,0 +1,333 @@
+/*styles for the home page*/
+
+/*styles for all pages*/
+	#content{
+		width:inherit;
+	}
+
+	#alldata{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	button {
+		background: blue;
+	}
+
+	/* Navbar */
+		.nav_logo_home{
+			margin-left:10px;
+		}
+
+		.nav_logo_basketball{
+			margin-left:23px;
+		}
+
+		.nav_logo_soccer{
+			margin-left:15px;
+		}
+
+		.nav_sports{
+			margin-left:15px;
+		}
+
+	.sidebar{
+		padding: 9px 0;
+		margin-left: -20px;
+		margin-top: -9px;
+		height:auto;
+	}
+	
+	.sidebar-content{
+		margin-left: 30px;
+		margin-top: -20px;
+	}
+
+	.create_game_button{
+		width: 100px;
+	}
+	
+	.create_game_button_createpage{
+		width:140px;
+		margin-left: 315px;
+	}
+	
+	.main{
+		margin-left: -3px;
+		width:  695px;
+		opacity: .92;
+	}
+
+	@media (max-width: 980px) {
+		.navbar-text.pull-right {
+			float: none;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+
+	#date{
+		width: 50%;
+	}
+
+	.background {
+		height: 660px;
+		background: white;
+	}
+	
+	/* site footer */
+	.footdiv{
+		float:left;
+		margin-top: 10px;
+		margin-left:30px;
+		color: white;
+	}
+	
+	.footlink{
+		color: white;
+	}
+
+/*index.html styles*/
+	.signup-bar{
+		position: relative;
+		top: 380px;
+		height: 160px;
+		background-color:#480058;
+		opacity:1;   
+		-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
+		-moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
+		box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1),0px 1px 0 0 rgba(0,0,0,0.1);
+	}
+
+	.col{
+		width:20%;
+		float: left;
+	}
+
+	.signup-row{
+		position: relative;
+		top:10px;
+		width:1170px;
+		margin-left: auto;
+		margin-right: auto;
+		opacity: 1;
+	}
+
+	.rememberlogin{
+		margin-left:20px;
+	}
+	
+	#loginbackground {
+		background-image: url(images/login.jpg);
+		background-position:center;
+	}
+	
+	.infoblank{
+		border-radius:initial;
+		height: 50px;
+	}
+
+	.info{
+		color: #FFFFFF;
+		opacity:1;
+	}
+
+	#sign_in_button{
+		opacity:1;
+	}
+
+	.title{
+		color: #FFFFFF;
+	}
+
+/*userpage.html styles*/
+	.odd{
+		background: #E3E4FA;
+	}
+	
+	.logo{
+		width:1170px;
+		margin-left: auto;
+		margin-right:auto;
+		padding-top: 0px;
+		color: #FFFFFF;
+	}
+
+	.tdtext{
+		display:inline;
+		padding-left: 25px;
+	}
+
+	.head{
+		background: #480058;
+	}
+	
+	#userpage-background{
+		background-image: url(images/userpage_background.png);
+	}
+
+	.foot{
+		background: #480058;
+		color: white;
+		position: fixed; 
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+	}
+	
+	.footer {
+		position: fixed; 
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+	}
+	
+	#Join{
+	margin-top:10px;	
+	
+	}
+	
+/* soccer.html and basketball.html styles */
+	#create{
+		width: 135px;
+	}
+	
+	#date{
+	margin-top:10px;
+	margin-left:5px;
+	width: 105px;
+	}
+	
+	.search-button{
+	margin-left:105px;
+	margin-top:-35px;
+	
+	}
+	
+	#soccer-background{
+		background-image:url(images/soccerbackground.png);
+	}
+	
+	#basketball-background{
+		background-image:url(images/basketballbackground.jpg);
+	}
+	
+/* Creategame.html styles */
+	#box{
+		float: right;
+		margin-right: 125px;
+	}
+	
+	form {
+		line-height:240%;
+	}
+
+	#buttons{
+		margin-top: 10px;
+	}
+
+	#create2{
+		float:right;
+		width: 135px;
+		margin-right: 123px;
+	}
+
+	#back{
+		float:left;
+		margin-top: 2px;
+		margin-right: 10px;
+	}
+	
+	#soccergame-background{
+		background-image:url(images/soccer_creategame.png);
+	}
+	
+	#basketballgame-background{
+		background-image:url(images/basketball_creategame.jpg);
+	}
+
+/* chatroom.html styles */
+	#chatroom-hero{
+		width:83%;
+	}
+	
+	.chatroom-content{
+		margin-top:-45px;
+	}
+	
+	.game-information{
+		margin-top: 0px;
+		margin-right: 20px;
+		float: right;
+
+	}
+	
+	.game-information-box{
+		margin-top: 0px;
+		margin-left: 350px;
+		background:#E3E4FA;
+		width: 250px;
+		height: 305px;
+		border:1px solid gray;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	
+	.answer{
+		margin-left: 100px;
+		margin-top:-30px;
+	}
+	
+	.message-window{
+		height: 300px;
+		width: 330px;				
+		background: #E3E4FA;
+		border:5px solid gray;
+		border-radius: 5px;
+		padding: 5px;
+		margin-left:-30px;
+		margin-top:-315px;
+	}
+	
+	.make-message{
+		width: 420px;
+		background: rgb(208, 239, 177);
+		border-radius: 5px;	
+	}
+	
+	#user-input{
+		margin-top:-80px;
+		margin-left: -20px;
+		width: 240px;
+	}
+	
+	#submitmsg{
+		margin-top: -80px;
+		margin-left: 240px;
+		width: 70px;
+	}
+	
+	#send{
+		border-radius: 5px;
+		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+		position: relative;
+		width: 85px;
+		height: 50px;
+		margin: 4px;
+		font-family: lucida sans, sans-serif;
+		font-size: 1.5em;
+		
+		margin-top: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#leave-game{
+		box-shadow:   -1px 0px 14px 0px rgba(46, 50, 50, 0.75) inset;
+		width: 200px;
+		margin-top: 0px;;
+		margin-left: -30px;;
+	}
+

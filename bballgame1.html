@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+	
+		<title>chatroom</title>
+		
+		<!-- our styles and js -->
+		<link href="css/nups.css" rel="stylesheet">	
+		<script type="text/js" src="nups.js" defer></script>
+	
+		<!-- bootstrap styles -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		
+	</head>
+
+	<body>
+		<div class="background">
+			<div class="head">
+				<div class="logo">
+					<h3>Northwestern Pickup Sports</h3>
+				</div>
+			</div> <!-- Banner -->
+			
+			<div class="container">
+				<div class="masthead">
+					<div class="navbar">
+						<div class="navbar-inner">
+							<div class="container">
+								<ul class="nav">
+									<li>
+										<a href="userpage1.html">
+											<div class="nav_logo_home"><img src="css/images/home.png"> </img></div>
+											<div class="nav_sports"> Home </div>
+										</a>
+									</li> <!-- Home Link -->
+									<li class="active">
+										<a href="basketball1.html">
+											<div class="nav_logo_basketball"><img src="css/images/basketball.png"> </img></div>
+											<div class="nav_sports"> Basketball </div>
+										</a>
+									</li> <!-- Basketball Link -->
+									<li>
+										<a href="soccer1.html">
+											<div class="nav_logo_soccer"><img src="css/images/soccerball.png"> </img></div>
+											<div class="nav_sports"> Soccer </div>
+										</a>
+									</li> <!-- Soccer Link -->
+								</ul> <!-- nav buttons -->
+								<form class="navbar-search pull-right">
+									<input type="text" class="search-query" placeholder="Search">
+								</form>
+							</div>
+						</div>
+					</div><!-- /.navbar -->
+				</div> <!-- navbar code --> 
+				
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span3">
+							<div class="sidebar">
+								<div class="well sidebar-nav">
+									<ul class="nav nav-list">
+										<li class="nav-header">My games</li>
+										<img src="css/images/basketball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame1.html">2/17 @3pm</a></li></div>
+										<img src="css/images/soccerball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame2.html">2/18 @6pm</a></li></div>
+										<img src="css/images/soccerball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame3.html">2/20 @9am</a></li></div>
+										<img src="css/images/basketball_small.png">
+										<div class="sidebar-content">
+										<li><a href="mygame4.html">2/27 @6pm</a></li></div>
+									</ul>
+								</div><!--/well -->
+							</div><!--/sidebar -->
+						</div><!--"My Games sidebar"-->
+							<div class="span9">
+								<div class="main">
+									<div class="hero-unit" id="chatroom-hero">
+										<div class="chatroom-content">
+										<head><b>Message Board</b></head>
+									
+										<div class="game-information">
+
+											<b>Game Information</b><br></div>
+											<div class="game-information-box">
+
+												<u>Creator:</u> <div class= "answer">Joe </div>
+												<u>Date:</u> <div class= "answer">2/18 at 9:00am</div>
+												<u>Location:</u> <div class= "answer">SPAC</div>
+												<u>Game size:</u> <div class= "answer">6 of 22</div>
+											
+												<u>Players:</u> 
+												<div class= "answer">
+													John Henson <br>
+													Joe Durmond<br>
+													Monica Burke<br>
+													Frank Ocean<br>
+													Steven Yang<br>
+													You<br>
+												</div> <!-- answer -->
+											</div> <!-- game information-box -->
+										<div class="message-window">
+											John [12:45pm 2/28/2014]: I'll bring the ball! <br>
+											Joe  [12:47pm 2/28/2014]: I'll call my friends <br>
+											You  [12:48pm 2/28/2014]: It's cold outside
+										</div> <!-- message window -->
+										
+											<form class="messageform" action="">
+												<input type="text" id="user-input" size="63" value="Enter your message here..."/>
+												<button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="submitmsg" style="opacity:1.0;">Submit</button>													
+
+											</form>
+											<a href="#"><button type="button" class="btn btn-default btn-block btn-primary" value="1"  id="leave-game" style="opacity:1.0;">Leave Game</button>
+
+										</a> <!-- leave game button -->
+										</div><!-- chatroom-content -->
+									</div> <!-- hero-unit -->
+								</div><!-- main -->
+							</div> <!-- span9 -->
+						</div><!-- row-fluid -->
+				</div> <!-- container-fluid -->
+			</div> <!-- container -->
+			
+				<div class="foot">
+				<footer>
+					<div class="footdiv"><p>&copy; Carjx 2014</p></div>
+					<div class="footdiv"><a href="" class="footlink">About NUPS</a></div>
+					<div class="footdiv"><a href="" class="footlink">Contact Us</a></div>
+					<div class="footdiv"><a href="" class="footlink">Privacy Notice</a></div>
+				</footer>
+			</div> <!-- site footer -->
+			
+		</div> <!-- background -->
+	</body>
+
+</html> 
+
