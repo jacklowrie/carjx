@@ -194,6 +194,17 @@
 		width: 135px;
 	}
 	
+	#date{
+	margin-top:10px;
+	margin-left:5px;
+	}
+	
+	.search-button{
+	margin-left:95px;
+	margin-top:-35px;
+	
+	}
+	
 	#soccer-background{
 		background-image:url(images/soccerbackground.png);
 	}
