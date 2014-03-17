@@ -197,10 +197,11 @@
 	#date{
 	margin-top:10px;
 	margin-left:5px;
+	width: 105px;
 	}
 	
 	.search-button{
-	margin-left:95px;
+	margin-left:105px;
 	margin-top:-35px;
 	
 	}
